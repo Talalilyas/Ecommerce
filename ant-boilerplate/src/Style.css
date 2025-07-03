@@ -1,0 +1,5 @@
+/* styles.css or relevant stylesheet */
+.carousel-container {
+  height: 500px; /* Adjust as needed */
+  overflow: hidden;
+}
