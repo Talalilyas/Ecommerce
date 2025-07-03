@@ -2,7 +2,7 @@
 import React from "react";
 import { Button } from "antd";
 
-const BuyPButton = ({ icon, label, onClick, type = "link", style }) => {
+const BuyButton = ({ icon, label, onClick, type = "link", style }) => {
   return (
     <Button
       icon={icon}
@@ -15,4 +15,4 @@ const BuyPButton = ({ icon, label, onClick, type = "link", style }) => {
   );
 };
 
-export default BuyPButton;
+export default BuyButton;

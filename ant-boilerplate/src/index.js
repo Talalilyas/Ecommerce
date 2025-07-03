@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import ProductCarousel from './ProductCarousel';
+import TopDealsSection from './TopDealsSection';
+import Blackfriday from './Blackfriday';
+import Collection from './Collection';
+import Discovermore from "./Discovermore"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <ProductCarousel />
+     <TopDealsSection />
+
+
+     <Blackfriday/>
+     <Collection/>
+     <Discovermore/>
   </React.StrictMode>
 );
 
